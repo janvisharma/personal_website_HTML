@@ -6,37 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Janvi Sharma</title>
 
   <style>
     body, html {
       height: 100vh;
     }
-    /* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("https://i.pinimg.com/originals/0b/52/cf/0b52cfa20534e151d7c781034eb22588.jpg");
 
-  /* Set a specific height */
-  height: 100%;
+  .hero-image {
+    background-image: url("https://i.pinimg.com/originals/0b/52/cf/0b52cfa20534e151d7c781034eb22588.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  }
 
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-}
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
 
     body {
       background-color:#e6b2c6;
@@ -60,36 +54,35 @@
 
     }
     ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
- top: 0; /* Position the navbar at the top of the page */
- width: 98.7%; /* Full width */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 98.7%;
+  }
+
+  li {
+    float: left;
+    display: inline-block;
+
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
-li {
-  float: left;
-  display: inline-block;
+  li a:hover {
+    background-color: #111;
+  }
 
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
-  </style>
+</style>
 </head>
 <body>
 
@@ -102,7 +95,6 @@ li a:hover {
   <a href="https://www.linkedin.com/in/janvi-sharma-491389195/"><i class="fa fa-linkedin-square" style="font-size:19px;color:white"></i></a>
   </li>
   <li style="float:right"><a href="">Contact: </a></li>
-
 
 </ul>
   <div class="hero-image">
@@ -120,9 +112,7 @@ li a:hover {
         <td style="background-color: #ea9085;" width=33%>
         <img src="myPicture.png" width="280" height="280" alt="profile picture">
         </td>
-
         <td>
-
         <p style="font-size: 160%;">
           Hey there! My name is <b>Janvi Sharma</b>. <br>
           I am a sophomore at <strong>The University of Hong Kong</strong> studying Computer Science Engineering.
@@ -135,15 +125,7 @@ li a:hover {
   </tbody>
 </table>
 </a>
-
-
 <br>
-
-
-
-
-
 </main>
 </body>
-
 </html>
