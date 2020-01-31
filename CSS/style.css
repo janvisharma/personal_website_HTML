@@ -1,5 +1,4 @@
 
-
     body, html {
       height: 100vh;
       margin: 0;
@@ -88,3 +87,29 @@
   li a:hover {
     background-color: #111;
   }
+
+.text-link:link {
+  text-decoration: none;
+}
+
+.text-link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.text-link {
+  color:black;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.text-link:hover {
+  color: #ffd739;
+  text-shadow:0px 0px 30px #f1fa3c;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
