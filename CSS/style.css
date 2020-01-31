@@ -1,0 +1,85 @@
+
+    body, html {
+      height: 100vh;
+      margin: 0;
+    }
+
+  .hero-image {
+    background-image: url("https://i.pinimg.com/originals/0b/52/cf/0b52cfa20534e151d7c781034eb22588.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeath;
+    background-size: cover;
+
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+  }
+
+
+    body {
+      background-color:#e6b2c6;
+    }
+    hr {
+      background-color: #352961;
+      border-style: none;
+      height: 10px;
+    }
+    img {
+      margin: 1em;
+      padding: 1em;
+      float:left;
+      width:90%;
+      background-color: #ec7373;
+      height:27%;
+    }
+    table {
+      border-spacing: 14px;
+      background-color: #f6e5e5;
+      align: center;
+      overflow: scroll;
+      width: 80vw;
+      height: 50vh;
+
+    }
+    td {
+      display:block;
+    }
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  li {
+    float: left;
+    display: inline-block;
+    font-size: 120%;
+
+  }
+
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+  li a:hover {
+    background-color: #111;
+  }
