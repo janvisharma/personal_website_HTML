@@ -6,7 +6,7 @@
     }
   .sub-headings {
     font-family: 'Special Elite', cursive;
-  
+
     font-size: 250%;
   }
   .hero-image {
@@ -123,11 +123,3 @@
   li a:hover {
     background-color: #111;
   }
-
-.edu-logo {
-  height: 70%;
-  width: 66%;
-  margin: 1.6em;
-  padding: 0.6em;
-  align-content: center;
-}
