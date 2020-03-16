@@ -4,18 +4,27 @@
       text-align: center;
       margin: 0;
       scroll-behavior: smooth;
+      background-attachment: fixed;
+
+      background-image: url("https://i.pinimg.com/originals/0b/52/cf/0b52cfa20534e151d7c781034eb22588.jpg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeath;
+      background-size: cover;
     }
   .sub-headings {
     font-family: 'Special Elite', cursive;
 
     font-size: 250%;
   }
+
   .hero-image {
-    background-image: url("https://i.pinimg.com/originals/0b/52/cf/0b52cfa20534e151d7c781034eb22588.jpg");
+
     height: 100%;
     background-position: center;
     background-repeat: no-repeath;
     background-size: cover;
+
 
   }
   .text-link:link {
@@ -58,24 +67,20 @@
   p {
     font-family: 'Linden Hill', serif;
   }
-    body {
-      /*
-     background-color:#e6b2c6;
-     */
-     background-image: linear-gradient(to right, #FC5C7D , #6A82FB);
-    }
+
 
     img {
       margin: 1em;
       padding: 1em;
       float:left;
       width:90%;
-      background-color: #ec7373;
+
       height:27%;
 
     }
     .profileImg{
       border-radius: 50%;
+       border: 3px solid #0f2235;
     }
     .abt-me-table {
       border-spacing: 14px;
@@ -85,13 +90,13 @@
       width: 80vw;
       height: 50vh;
       border-radius: 1%;
-      background-image: linear-gradient(to right, #FFAFBD , #ffc3a0);
-       box-shadow: 2px 2px 10px black;
+      background-image: linear-gradient(to right, #ee9ca7 , #ffdde1);
+      box-shadow: 2px 2px 10px black;
 
     }
     .edu-table {
       border-spacing: 14px;
-      background-image: linear-gradient(to right, #FFAFBD , #ffc3a0);
+      background-image: linear-gradient(to right, #D3CCE3 , #E9E4F0);
       align: center;
 
       display: inline-block;
