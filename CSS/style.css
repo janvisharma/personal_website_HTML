@@ -96,7 +96,8 @@
     }
     .edu-table {
       border-spacing: 14px;
-      background-image: linear-gradient(to right, #D3CCE3 , #E9E4F0);
+     background-image: linear-gradient(#E9E4F0,#D3CCE3 ,#bccbde);
+
       align: center;
 
       display: inline-block;
